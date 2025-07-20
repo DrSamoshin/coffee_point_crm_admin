@@ -27,3 +27,5 @@ jobs:
             DB_PASS=${{ secrets.DB_PASS }}
             PRIVATE_KEY_ID=${{ secrets.PRIVATE_KEY_ID }}
             PRIVATE_KEY=${{ secrets.PRIVATE_KEY }}
+            JWT_POINT_SECRET_KEY=${{ secrets.JWT_POINT_SECRET_KEY }}
+            JWT_ADMIN_SECRET_KEY=${{ secrets.JWT_ADMIN_SECRET_KEY }}
