@@ -21,7 +21,6 @@ jobs:
           allow_unauthenticated: true
           add_cloudsql_instances: ${{ secrets.INSTANCE_CONNECTION_NAME }}
           env_vars: |
-            ADMIN_MODE=${{ github.event.inputs.admin_mode }}
             USE_CLOUD_SQL_PROXY=true
             INSTANCE_CONNECTION_NAME=${{ secrets.INSTANCE_CONNECTION_NAME }}
             DB_USER=${{ secrets.DB_USER }}
