@@ -1,1 +1,1 @@
-# coffee_point_admin
+# Coffee point CRM
